@@ -1,1 +1,1 @@
-const Prod_RemoteURL = "http://www.reurgency.com/";
+const Production_RemoteURL = "http://www.reurgency.com/";
