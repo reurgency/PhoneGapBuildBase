@@ -2,15 +2,17 @@
  * Environment variable for the remote server. This is used to select the appropriate remote URL
  * @type {string} Environment Name
  */
-const RemoteServerEnvironment = "Dev";
+const RemoteServerEnvironment = "Prod";
 
 /**
  * Remote URL Variables. One for each possible RemoteServerEnvironment value. Must Be named like
  * RemoteServerEnvironment + "_RemoteURL"
  */
-const Dev_RemoteURL = "http://www.google.com/";
-const Staging_RemoteURL = "http://www.facebook.com/";
-const Prod_RemoteURL = "http://www.reurgency.com/";
+const Dev_RemoteURL = "http://www.reurgency.com/#/Dev";
+const QA_RemoteURL = "http://www.reurgency.com/#/QA";
+const Staging_RemoteURL = "http://www.reurgency.com/#/Staging";
+const Demo_RemoteURL = "http://www.reurgency.com/#/Demo";
+const Prod_RemoteURL = "http://www.reurgency.com/#/Prod";
 //END REMOTE URL VARIABLES
 
 /**
