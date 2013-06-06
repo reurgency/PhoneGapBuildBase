@@ -8,11 +8,11 @@ const RemoteServerEnvironment = "Prod";
  * Remote URL Variables. One for each possible RemoteServerEnvironment value. Must Be named like
  * RemoteServerEnvironment + "_RemoteURL"
  */
-const Dev_RemoteURL = "http://www.reurgency.com/#/Dev";
-const QA_RemoteURL = "http://www.reurgency.com/#/QA";
+const Dev_RemoteURL     = "http://www.reurgency.com/#/Dev";
+const QA_RemoteURL      = "http://www.reurgency.com/#/QA";
 const Staging_RemoteURL = "http://www.reurgency.com/#/Staging";
-const Demo_RemoteURL = "http://www.reurgency.com/#/Demo";
-const Prod_RemoteURL = "http://www.reurgency.com/#/Prod";
+const Demo_RemoteURL    = "http://www.reurgency.com/#/Demo";
+const Prod_RemoteURL    = "http://www.reurgency.com/#/Prod";
 //END REMOTE URL VARIABLES
 
 /**
